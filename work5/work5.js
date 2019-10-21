@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 str = '<table border="1">'
 for(let i=9;i>0;--i){
     str += '<tr>'
@@ -31,7 +31,7 @@ str +='</tr>'
 }
 str +='</table>'
 document.getElementById('table3').innerHTML = str
-=======
+
 str='<table border="1">';
 for(let i=1;i<10;++i){
     str +='<tr>'
@@ -64,4 +64,3 @@ for(let i=9;i>0;--i){
 }
 str += '</table>'
 document.getElementById('table3').innerHTML = str
->>>>>>> 16fe1f75ae8091608f27dad4b8de44e498fa0da0
