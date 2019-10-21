@@ -19,8 +19,4 @@ function insertSort(str) {
         }
     }
     return arr
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 1651e5bcfe648118c568da6f1fa9f004db30c10c
