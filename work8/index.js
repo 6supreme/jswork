@@ -20,8 +20,5 @@ function mul(num1,num2){
 function div(num1,num2){
     return num1/num2
 }
-<<<<<<< HEAD
-=======
 
 
->>>>>>> f52c55bf35acc590bad97638253571a64886912c
