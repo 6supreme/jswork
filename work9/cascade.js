@@ -95,7 +95,7 @@ majorSelect.onchange = function() {
 collegeSelect.onchange = function() {
     majorSelect.options.length = 0;
     createOption(majorSelect, majorSelectArr[collegeSelect.value]);
-    if (collegeSelect,value >= 0) {
+    if (collegeSelect.value >= 0) {
         majorSelect.onchange();
     }else {
         classSelect.options.length = 0;
