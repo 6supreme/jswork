@@ -1,7 +1,12 @@
 .box{
     width: 350px;
+<<<<<<< HEAD
     height:350px;
     border:1px solid #CCC;
+=======
+    height: 350px;
+    border: 1px solid #ccc;
+>>>>>>> 03c17ca71fc9f92c01967f86d959794ea24775f9
     position: relative;
 }
 
@@ -11,7 +16,11 @@
     position: absolute;
     top: 0;
     left: 360px;
+<<<<<<< HEAD
     border: 1px solid #CCC;
+=======
+    border: 1px solid #ccc;
+>>>>>>> 03c17ca71fc9f92c01967f86d959794ea24775f9
     overflow: hidden;
     display: none;
 }
@@ -19,7 +28,11 @@
 .mask{
     width: 175px;
     height: 175px;
+<<<<<<< HEAD
     background:rgba(255,255,0,.4);
+=======
+    background: rgba(255, 255, 0 , .4);
+>>>>>>> 03c17ca71fc9f92c01967f86d959794ea24775f9
     position: absolute;
     top: 0;
     left: 0;
@@ -28,6 +41,7 @@
 }
 
 .small{
+<<<<<<< HEAD
     position: relative;
 }
 
@@ -38,4 +52,15 @@
 
 #bigBox img{
     position: absolute;
+=======
+    position: relative
+}
+
+.box img{
+    vertical-align: top
+}
+
+#bigBox img{
+    position: absolute
+>>>>>>> 03c17ca71fc9f92c01967f86d959794ea24775f9
 }
