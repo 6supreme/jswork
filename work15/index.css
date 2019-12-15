@@ -1,10 +1,10 @@
 .cart{
-    width: 700px;
+    width: 800px;
     padding: 0 10px 10px;
     border: 1px solid #D5E5F5;
 }
 
-.cart-title {
+.cart-title{
     margin-bottom: 10px;
     font-size: 14px;
     border-bottom: 1px solid #AED2FF;
@@ -20,8 +20,8 @@
     width: 100%;
     margin: 0 auto;
     border-collapse: collapse;
-    font-family: Verdana, "Micosoft YaHei";
     font-size: 12px;
+    font-family: Verdana, "Microsoft YaHei";
     color: #333;
 }
 
@@ -34,7 +34,7 @@
 
 .cart-item{
     background-color: #FAFCFF;
-    border-bottom: 1px dotted #84B3FD;
+    border-bottom: 1px dotted #82B3FD;
 }
 
 .cart-item td{
@@ -56,7 +56,7 @@
     font-weight: bold;
 }
 
-.cart-redue,
+.cart-reduce,
 .cart-add{
     display: inline-block;
     width: 16px;
@@ -71,7 +71,7 @@
     font-size: 13.3333px;
 }
 
-.cart-redue:hover,
+.cart-reduce:hover,
 .cart-add:hover{
     background-color: #FF9900;
 }
@@ -82,35 +82,37 @@
     text-align: center;
     height: 20px;
     line-height: 20px;
-    padding:  0 3px;
+    padding: 0 3px;
     display: inline-block;
     background: #fff;
-    border: 1px solid #bbb
+    border: 1px solid #bbb;
 }
 
-.cart-del,.cart-all,
+.cart-del,
+.cart-all,
 .cart-unall{
     color: #3366D4;
 }
 
-.cart-del:hover,.cart-all:hover,
+.cart-del:hover,
+.cart-all:hover,
 .cart-unall:hover{
     text-decoration: underline;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .cart-bottom{
     height: 55px;
-    text-align: right
+    text-align: right;
 }
 
-.cart-bollom .cart-all{
+.cart-bottom .cart-all{
     position: relative;
-    top: 1px
+    top: 1px;
 }
 
 .cart-total-price{
-    color: #FF3334;
+    color:#FF3334;
     font-weight: bold;
     font-size: 16px;
 }
@@ -123,10 +125,11 @@
     margin: 0 20px;
     background: #FE8502;
     border: 1px solid #FF6633;
-    border-radius: 5px 5px 5px 5px ;
+    border-radius: 5px 5px 5px 5px;
     padding: 6px 12px;
 }
 
 .cart-bottom-btn:hover{
     background: #FF6600;
 }
+
