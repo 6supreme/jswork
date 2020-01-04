@@ -1,11 +1,11 @@
 $('#fold>ul>li:first').find('.wrap').css({
-    dispiay: 'block'
+    display:'block'
 });
 $('#fold>ul>li').click(function(){
     $(this).siblings('li').find('.wrap').css({
-        display: 'none'
+        display:'none'
     });
     $(this).find('.wrap').css({
-        display: 'block'
+        display:'block'
     });
 });
